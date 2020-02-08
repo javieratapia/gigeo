@@ -1,0 +1,22 @@
+.fa-search, .fa-video, .fa-plus, .fa-bell{
+    padding-left: 2vw;
+    @media (max-width: 576px) { 
+        display: none;
+     }
+}
+.fa-bars{
+    padding-left: 2vw;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+} 
+.iconos{
+    display: flex;
+    align-items: center;
+    
+}

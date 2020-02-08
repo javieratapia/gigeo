@@ -1,0 +1,35 @@
+
+main h3{
+    padding-left: 10vw;
+    padding-bottom: 3vw;
+    @media (max-width: 576px) {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+
+.main__videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-bottom: 10vw;
+    img{
+        margin-bottom: 1vw;
+        @media (max-width: 576px) {
+            height: 45vw;
+            margin-top: 2vw;
+    }
+}
+    div,img{
+        width: 250px;
+        @media (max-width: 576px) {
+            width: 100%;
+            
+    }
+}
+
+}
